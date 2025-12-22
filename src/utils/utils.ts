@@ -1,19 +1,8 @@
 import dayjs from "dayjs";
 
 export function calculateExperience(startDate: string): string {
-  const start = dayjs(startDate);
-  const now = dayjs();
-  const months = now.diff(start, "month");
-  const years = Math.floor(months / 12);
-  const remainingMonths = months % 12;
-
-  if (years === 0) {
-    return `0.${remainingMonths}`;
-  }
-  if (remainingMonths === 0) {
-    return `${years}`;
-  }
-  return `${years}.${remainingMonths}`;
+  const years = dayjs().diff(dayjs(startDate), "month", true) / 12;
+  return years.toFixed(1);
 }
 
 type Skill = {
