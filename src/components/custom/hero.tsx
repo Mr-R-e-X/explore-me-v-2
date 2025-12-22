@@ -113,10 +113,10 @@ export const Hero: React.FC = () => {
             <Mail className="w-4 h-4" />
             <span>{userData.email}</span>
           </div>
-          <div className="flex items-center space-x-2">
+          {/* <div className="flex items-center space-x-2">
             <Phone className="w-4 h-4" />
             <span>{userData.phone}</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

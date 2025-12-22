@@ -44,7 +44,7 @@ export const userData = {
   title: "Software Developer",
   subTitle: "Full Stack Teaching Assistant",
   tagline: "Crafting digital experiences with code and creativity",
-  location: "Bangalore, India",
+  location: "Kolkata, India",
   email: "souvikhazra151@gmail.com",
   phone: "+91 6294720141",
   website: "https://alexrodriguez.dev",
