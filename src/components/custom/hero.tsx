@@ -95,14 +95,14 @@ export const Hero: React.FC = () => {
             <span>Get In Touch</span>
           </a>
 
-          <a
+          /* <a
             href={userData.resumeUrl}
             download
             className="group border-2 border-neutral-600 hover:border-orange-500 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 flex items-center space-x-3 hover:bg-gradient-to-r hover:from-orange-500/10 hover:to-red-500/10"
           >
             <Download className="w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
             <span>Download Resume</span>
-          </a>
+          </a> */
         </div>
         <div className="flex flex-wrap justify-center items-center gap-8 text-neutral-400">
           <div className="flex items-center space-x-2">
